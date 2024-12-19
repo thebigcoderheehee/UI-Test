@@ -1,0 +1,78 @@
+.product {
+    color: black;
+}
+
+.btn-light,
+.btn-dark {
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.btn-dark {
+    background-color: black;
+}
+
+.btn-light {
+    border: 1px solid black;
+}
+
+.btn-light:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+.project {
+    margin-left: 25px;
+}
+
+.first-half-title {
+    margin-top: 40px;
+    margin-left: 36px;
+}
+
+.img {
+    margin-top: 10px;
+    margin-left: 37px;
+}
+
+.container {
+    margin-top: 10px;
+    margin-left: 22px;
+    width: 400px;
+}
+
+.profile-picture {
+    margin-left: 34px;
+}
+
+h4 {
+    margin-top: 90px;
+}
+
+.img-fluid {
+    height: 150px;
+}
+
+.believe {
+    width: 500px;
+    height: auto;
+}
+
+@media (max-width: 400px) {
+    .display-img {
+        width: 370px;
+        height: auto;
+    }
+
+    .container {
+        margin-left: 0;
+    }
+    .container p{
+        font-size: 20px;
+    }
+}
